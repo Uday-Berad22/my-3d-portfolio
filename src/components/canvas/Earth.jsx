@@ -19,6 +19,7 @@ const EarthCanvas = () => {
       frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      className="hidden md:block"
       camera={{
         fov: 45,
         near: 0.1,
