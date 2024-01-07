@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import youtubeicon from "./youtube.jpg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,17 +20,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import Student_img from "./Student_img.jpeg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import ecommerce from "./ecommerce.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import Textutils from "./Textutils.png";
 export {
+  youtubeicon,
   logo,
   backend,
   creator,
@@ -59,4 +60,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  Student_img,
+  ecommerce,
+  Textutils,
 };

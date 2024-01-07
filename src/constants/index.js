@@ -1,4 +1,5 @@
 import {
+  youtubeicon,
   mobile,
   backend,
   creator,
@@ -23,6 +24,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  Student_img,
+  ecommerce,
+  Textutils,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +35,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -44,18 +48,22 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
+    url: "https://github.com/Uday-Berad22",
   },
   {
     title: "competitive Programmer",
     icon: mobile,
+    url: "https://codechef.com/users/spiderrrman48",
   },
   {
     title: "Backend Developer",
     icon: backend,
+    url: "https://github.com/Uday-Berad22",
   },
   {
     title: "Content Creator",
-    icon: creator,
+    icon: youtubeicon,
+    url: "https://www.youtube.com/channel/UCRNuD2x7M_UFj1GkfYAUrRw",
   },
 ];
 
@@ -194,33 +202,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Students Data Management Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It is a CRUD based application which uses Core Java , JDBC and MySQL concept.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JDBC",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Student_img,
+    source_code_link:
+      "https://github.com/Uday-Berad22/Students-Data-Management-Application",
   },
   {
-    name: "Job IT",
+    name: "FullStackFlipkart",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "It is an Ecomerce application, which has a unique dynamic user experience with authentication.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
@@ -228,33 +237,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "Js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Node Js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Handlebars",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/Uday-Berad22/fullStackFlipkart",
+  },
+  {
+    name: "Textutils",
+    description:
+      "Textutils is a text manipulation tool offering functions like formatting, character counting, encoding/decoding, sorting, filtering, and text comparison, making it a versatile solution for various tasks from content creation to coding.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Textutils,
+    source_code_link: "https://github.com/Uday-Berad22/Textutils",
   },
 ];
 
